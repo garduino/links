@@ -6,8 +6,6 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Validation\ValidationException;
 use Tests\TestCase;
 
-// use Illuminate\Foundation\Testing\RefreshDatabase;
-
 class SubmitLinksTest extends TestCase {
 	use RefreshDatabase;
 
