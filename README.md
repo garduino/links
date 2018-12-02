@@ -1,3 +1,3 @@
 # links
 
-Code after follow the tutorial: https://www.youtube.com/watch?v=6fwKuN0uml8
+Code after follow the tutorial: https://laravel-news.com/your-first-laravel-application
