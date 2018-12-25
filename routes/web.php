@@ -39,12 +39,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('login', 'Auth\AuthController@getLogin');
-Route::post('login', ['as' => 'login', 'uses' => 'Auth\AuthController@postLogin']);
-Route::get('logout', ['as' => 'logout', 'uses' => 'Auth\AuthController@getLogout']);
+Route::get('/login', function () {
 
-// Registration routes...
-Route::get('register', 'Auth\AuthController@getRegister');
-Route::post('register', ['as' => 'auth/register', 'uses' => 'Auth\AuthController@postRegister']);
-Route::get('/', 'HomeController@index');
-Route::get('home', 'HomeController@index');
+	return view('login');
+});
